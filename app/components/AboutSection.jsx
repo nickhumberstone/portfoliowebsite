@@ -23,8 +23,8 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>Digital Officer at The Green Party for 6 years</li>
-                <li>Placement Student at St. George's University of London for 1 year</li>
-                <li>Various roles at Sainsbury's and Waitrose for 3 years.</li>
+                <li>Placement Student at St. George`&apos;`s University of London for 1 year</li>
+                <li>Various roles at Sainsbury`&apos;`s and Waitrose for 3 years.</li>
             </ul>
         ),
     },
@@ -52,7 +52,7 @@ const AboutSection = () => {
     return (
         <section className="text-white">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px16">
-                <Image src="/images/codingscreenimage.png" width={500} height={500} />
+                <Image src="/images/codingscreenimage.png" width={500} height={500} alt="Computer monitor, keyboard, and mouse" />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base md:text-lg">I am a developer and I write code and play netrunner and stuff. You should hire me already.</p>
