@@ -9,7 +9,7 @@ const HeroSection = () => {
                 <div className=''>
                     <p className='text-[#ADB7BE] mb-4 text-lg lg:text-xl'>Hi there, my name is</p>
                     <h1 className="text-white mb-4 ml-4 text-4xl lg:text-6xl font-extrabold">Nick Humberstone</h1>
-                    <p className='text-[#ADB7BE] ml-10 mb-4 text-lg lg:text-xl'>
+                    <div className='text-[#ADB7BE] ml-10 mb-4 text-lg lg:text-xl'>
                         <ul className='list-disc space-y-4'>
                             <li>
                                 Self-taught React and React Native developer
@@ -24,7 +24,7 @@ const HeroSection = () => {
                                 Lover of board games
                             </li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div className=''>
                     <Image
