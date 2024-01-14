@@ -55,7 +55,7 @@ const AboutSection = () => {
                 <Image src="/images/codingscreenimage.png" width={500} height={500} alt="Computer monitor, keyboard, and mouse" />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-                    <p className="text-base md:text-lg">As a child, I wanted to be an inventor. As a student, I was a scientist. As a young adult, I was working in IT Support. Now I'm looking for my next puzzle - but this time I want to be solving the puzzle in front of me with lines of code and the power of computing.</p>
+                    <p className="text-base md:text-lg">As a child, I wanted to be an inventor. As a student, I was a scientist. As a young adult, I was working in IT Support. Now I&apos;m looking for my next puzzle - but this time I want to be solving the puzzle in front of me with lines of code and the power of computing.</p>
                     <div className="flex flex-row mt-8">
                         <TabButton
                             selectTab={() => handleTabChange("skills")}

@@ -40,7 +40,7 @@ const EmailSection = () => {
             <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top- -left-4 transform -translate-x-1/2 -translate-1/2"></div>
             <div>
                 <h5 className='text-xl font-bold text-white my-2'>Get in touch</h5>
-                <p className='text-[#adb7be] mb-4 max-w-md'>Drop me an email if you`&apos;`re interested in having a conversation</p>
+                <p className='text-[#adb7be] mb-4 max-w-md'>Drop me an email if you&apos;re interested in having a conversation</p>
                 <div className='socials flex flex-row gap-2'>
                     <Link href="https://github.com/nickhumberstone">
                         <Image scr={GithubIcon} alt="Github Icon"></Image>
