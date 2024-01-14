@@ -37,10 +37,10 @@ const AchievementsSection = () => {
                 achievementsList.map((achievement, index) => {
                     return (
                         <div key={index} className="flex flex-col items-center justify-center mx-4">
-                            <h2 className='text-white text-4xl font-bold flex-row'>
+                            <h2 className='text-white text-4xl font-bold border w-64'>
                                 {achievement.prefix}
                                 <AnimatedNumbers includeComma animateToNumber={parseInt(achievement.value)}
-                                    locale="en-US"
+
                                     className='text-white text-4xl font-bold'
                                     configs={(_, index) => {
                                         return {
