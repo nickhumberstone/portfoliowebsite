@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
     return (
-        <section className='lg:py-16'>
+        <section className='pt-16'>
             <div className='flex space-between'>
                 <div className=''>
-                    <p className='text-[#ADB7BE] mb-4 text-lg lg:text-xl'>Hi there, my name is</p>
+                    <p className='text-[#ADB7BE] mb-4 text-lg lg:text-xl'>Welcome to my portfolio</p>
                     <h1 className="text-white mb-4 ml-4 text-4xl lg:text-6xl font-extrabold">Nick Humberstone</h1>
                     <div className='text-[#ADB7BE] ml-10 mb-4 text-lg lg:text-xl'>
                         <ul className='list-disc space-y-4'>
@@ -26,17 +26,19 @@ const HeroSection = () => {
                         </ul>
                     </div>
                 </div>
-                <div className=''>
+                <div className='ml-4'>
                     <Image
-                        src='/images/nh-hero-image.png'
+                        src='/images/NickHumberstoneMainImage.JPG'
                         alt="Nick Humberstone, smiling in a burgundy knitwear pullover"
                         width={1000}
-                        height={1000} />
+                        height={1000}
+                        className='rounded-md'
+                    />
                 </div>
             </div>
 
             {/* divider between this section and next */}
-            <hr className='m-5 opacity-20 mx-auto my-4 h-1 w-3/4 border-0 rounded bg-purple-400' />
+            <hr className='m-5 opacity-20 mx-auto my-4 h-1 w-3 /4 border-0 rounded bg-purple-400' />
         </section >
     )
 }
