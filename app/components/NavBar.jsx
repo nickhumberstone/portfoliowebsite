@@ -4,7 +4,6 @@ import Link from "next/link"
 import NavLink from "./NavLink"
 import MenuOverlay from './MenuOverlay'
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
-import Image from "next/image";
 
 
 const navLinksArray = [
@@ -29,10 +28,11 @@ const navLinksArray = [
 const NavBar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-            <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2'>
-                <Link href={"/"} className="text-xl md:text-3xl text-white font-semibold"><Image src="/images/nhlogo1.png" alt='logo of letters N and H' height={100} width={100} /></Link>
+        <nav className="fixed top-0 inset-x-0 z-10 bg-[#174d25] overflow-auto">
+            <div className='flex flex-wrap items-center justify-between px-4 py-2 border'>
+                <Link href={"/"} className="text-xl md:text-5xl p-10 text-white font-semibold">humberstone.uk</Link>
 
+                {/* Mobile Hamburger Menu */}
                 <div className="mobile-menu block md:hidden">
                     {
                         !navbarOpen ? (
@@ -50,11 +50,13 @@ const NavBar = () => {
                         )
                     }
                 </div>
-                <div className="menu hidden md:block md:w-auto" id="navbar">
-                    <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
+
+                {/* Desktop Navbar */}
+                <div className="menu hidden md:block" id="navbar">
+                    <ul className="flex space-x-8 pr-6">
                         {
                             navLinksArray.map((link, index) => (
-                                <li key={index}>
+                                <li key={index} >
                                     <NavLink href={link.path} title={link.title} />
                                 </li>
                             ))
