@@ -1,4 +1,4 @@
-import { inter } from './layout';
+import { inter } from './layout'
 
 
 export default function RootLayout({
