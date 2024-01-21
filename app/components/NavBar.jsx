@@ -28,12 +28,12 @@ const navLinksArray = [
 const NavBar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className="fixed top-0 inset-x-0 z-10 bg-[#174d25] overflow-auto">
-            <div className='flex flex-wrap items-center justify-between px-4 py-2 border'>
-                <Link href={"/"} className="text-xl md:text-5xl p-10 text-white font-semibold">humberstone.uk</Link>
+        <nav className="fixed bg-[#174d25] w-full">
+            <div className='flex items-center justify-between px-4 py-4 border h-full'>
+                <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold">humberstone.uk</Link>
 
                 {/* Mobile Hamburger Menu */}
-                <div className="mobile-menu block md:hidden">
+                <div className="mobile-menu block lg:hidden">
                     {
                         !navbarOpen ? (
                             <button
@@ -52,7 +52,7 @@ const NavBar = () => {
                 </div>
 
                 {/* Desktop Navbar */}
-                <div className="menu hidden md:block" id="navbar">
+                <div className="menu hidden lg:block" id="navbar">
                     <ul className="flex space-x-8 pr-6">
                         {
                             navLinksArray.map((link, index) => (
