@@ -10,18 +10,18 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#e8e8e8] to-[#ffffff]">
       <NavBar />
-      <div className="mt-16 mx-auto p-5 border shadow-md bg-gradient-to-b from-[#2d2d2d] to-[#6dce6d]">
+      <div className="mt-16 mx-auto p-5 shadow-lg w-screen bg-gradient-to-b from-[#000000] to-[#1c1d1c]">
         <HeroSection />
-      </div>
-      <div className="mt-16 m-auto p-5 border shadow-md bg-gradient-to-b from-[#2d2d2d] to-[#6dce6d]">
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div>
         <AboutSection />
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div>
+        {/* <AchievementsSection />
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div> */}
+        <ProjectSection />
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div>
+        <EmailSection />
       </div>
-      <div className="mt-16 m-auto p-5 border shadow-md bg-gradient-to-b from-[#2d2d2d] to-[#6dce6d]">
-        <AchievementsSection /></div>
-      <ProjectSection />
-      <EmailSection />
       <Footer />
-
     </main>
   )
 }
