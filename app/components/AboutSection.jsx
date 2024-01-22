@@ -8,10 +8,9 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
+            <ul className="list-disc pl-2 text-[#ADB7BE] opacity-50">
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
                 <li>React</li>
                 <li>React Native</li>
             </ul>
@@ -21,10 +20,10 @@ const TAB_DATA = [
         title: "Experience",
         id: "experience",
         content: (
-            <ul className="list-disc pl-2">
-                <li>Digital Officer at The Green Party for 6 years</li>
-                <li>Placement Student at St. George`&apos;`s University of London for 1 year</li>
-                <li>Various roles at Sainsbury`&apos;`s and Waitrose for 3 years.</li>
+            <ul className="list-disc pl-2 text-[#ADB7BE] opacity-50">
+                <li>Digital Officer at The Green Party for 6+ years</li>
+                <li>Placement Student at St. George&apos;s University of London for 1 year</li>
+                <li>Various roles at Sainsbury&apos;s and Waitrose for 3 years</li>
             </ul>
         ),
     },
@@ -32,10 +31,10 @@ const TAB_DATA = [
         title: "Certifications",
         id: "certifications",
         content: (
-            <ul className="list-disc pl-2">
-                <li>Cert 1</li>
-                <li>Cert 2</li>
-                <li>Cert 3</li>
+            <ul className="list-disc pl-2 text-[#ADB7BE] opacity-50">
+                <li>FreeCodeCamp Responsive Web Design</li>
+                <li>FreeCodeCamp JavaScript Algorithms and Data Structures</li>
+                <li>FreeCodeCamp Front End Development Libraries</li>
             </ul>
         ),
     }
@@ -50,13 +49,24 @@ const AboutSection = () => {
     }
 
     return (
-        <section className="text-white">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px16">
-                <Image src="/images/codingscreenimage.png" width={500} height={500} alt="Computer monitor, keyboard, and mouse" />
-                <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                    <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-                    <p className="text-base md:text-lg">As a child, I wanted to be an inventor. As a student, I was a scientist. As a young adult, I was working in IT Support. Now I&apos;m looking for my next puzzle - but this time I want to be solving the puzzle in front of me with lines of code and the power of computing.</p>
-                    <div className="flex flex-row mt-8">
+        <section>
+            <div className="px-4">
+
+                <div className="text-left flex flex-col h-full">
+                    <h2 className="text-3xl text-center font-bold text-[#eaeaea]  mb-4">About Me</h2>
+                    <Image src="/images/NickHumberstoneMainImage.JPG" width={200} height={100} alt="Nick Humberstone in a burgundy knitwear jumper, standing in a park with green grass and a treeline in the background." className='mx-auto rounded-xl mb-4' />
+                    <ul className='list-disc text-[#ADB7BE] opacity-50 space-y-2'>
+                        <li>
+                            Self-taught React and React Native developer
+                        </li>
+                        <li>
+                            6+ years experience working in IT Support
+                        </li>
+                        <li>
+                            Volunteer organiser for Toastmasters, The Green Party, London Vegan Meetup
+                        </li>
+                    </ul>
+                    <div className="flex flex-row mx-auto mt-6 text-[#ADB7BE]">
                         <TabButton
                             selectTab={() => handleTabChange("skills")}
                             active={tab === "skills"}

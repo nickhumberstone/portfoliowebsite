@@ -28,8 +28,8 @@ const navLinksArray = [
 const NavBar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className="fixed bg-[#174d25] w-full">
-            <div className='flex items-center justify-between px-4 py-4 border h-full'>
+        <nav className="fixed bg-[#174d25] w-screen z-10 ">
+            <div className='flex items-center justify-between px-4 py-4'>
                 <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold">humberstone.uk</Link>
 
                 {/* Mobile Hamburger Menu */}

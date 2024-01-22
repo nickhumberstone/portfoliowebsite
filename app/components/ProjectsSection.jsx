@@ -43,13 +43,13 @@ const ProjectsSection = () => {
     const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
     return (
         <>
-            <h2>My Projects</h2>
-            <div className="projectsFilter text-white flex flex-row justify-center items-center gap-2 py-6">
+            <h2 className='text-3xl font-bold text-center'>My Projects</h2>
+            {/* <div className="projectsFilter text-white flex flex-row justify-center items-center gap-2 py-6">
                 <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"}></ProjectTag>
                 <ProjectTag onClick={handleTagChange} name="React" isSelected={tag === "React"}></ProjectTag>
                 <ProjectTag onClick={handleTagChange} name="React Native" isSelected={tag === "React Native"}></ProjectTag>
-            </div>
-            <div className="grid grid-cols-2 gap-8 py-4 px-4">{filteredProjects.map((p) =>
+            </div> */}
+            <div className="flex flex-wrap gap-8 py-4 px-4">{filteredProjects.map((p) =>
                 <ProjectCard
                     key={p.id}
                     title={p.title}
@@ -58,8 +58,6 @@ const ProjectsSection = () => {
                     gitUrl={p.gitUrl}
                     previewUrl={p.previewUrl}
                 />)}
-
-
             </div>
         </>
     )
