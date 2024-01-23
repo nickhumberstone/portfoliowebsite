@@ -52,7 +52,7 @@ const AboutSection = () => {
         <section>
             <div className="px-4">
 
-                <div className="text-left flex flex-col h-full lg:p-20 lg:mx-20 lg:grid lg:grid-cols-2">
+                <div className="text-left flex flex-col h-full lg:p-20 lg:mx-auto lg:grid lg:grid-cols-2 max-w-6xl">
                     <div>
                         <h2 className="text-3xl text-center font-bold text-[#eaeaea] mb-4 lg:text-5xl lg:mb-10">About Me</h2>
                         <Image src="/images/NickHumberstoneMainImage.JPG" width={200} height={100} alt="Nick Humberstone in a burgundy knitwear jumper, standing in a park with green grass and a treeline in the background." className='lg:hidden mx-auto rounded-xl mb-4' />
