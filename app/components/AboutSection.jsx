@@ -67,7 +67,7 @@ const AboutSection = () => {
                                 Volunteer organiser for Toastmasters, The Green Party, London Vegan Meetup
                             </li>
                         </ul>
-                            <div className="flex flex-row mx-auto mt-6 lg:text-xl text-[#ADB7BE]">
+                            <div className="flex flex-row mx-auto justify-center mt-6 lg:text-xl text-[#ADB7BE]">
                                 <TabButton
                                     selectTab={() => handleTabChange("skills")}
                                     active={tab === "skills"}

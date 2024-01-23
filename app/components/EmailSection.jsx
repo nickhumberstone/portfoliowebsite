@@ -35,7 +35,7 @@ const EmailSection = () => {
     return (
         <section className='my-12 md:my-12 gap-4 max-w-2xl mx-auto relative'>
             <div>
-                <h2 className='text-3xl font-bold text-center mb-2 lg:text-4xl lg:mb-10'>Get in touch</h2>
+                <h2 className='text-3xl font-bold text-center mb-2 lg:text-5xl text-[#eaeaea] lg:mb-10'>Get in touch</h2>
                 <p className='text-[#adb7be] mb-2 max-w-2xl'>Drop me an email if you want to connect. Face to face, over a coffee, is usually best.</p>
 
             </div>
@@ -56,7 +56,7 @@ const EmailSection = () => {
                     <button type="submit" className='bg-purple-500 hover:bg-purple-600 py-2.5 px-5 rounded-xl'>Send Message</button>
                     {
                         emailSubmitted && (
-                            <p className="text-green-500 text-sm mt-2">Email Sent Successfully.</p>
+                            <p className="text-green-500 text-sm mt-2 text-center">Email Sent Successfully.</p>
                         )
                     }
                 </form>
