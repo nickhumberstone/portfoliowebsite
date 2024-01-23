@@ -43,7 +43,7 @@ const ProjectsSection = () => {
     const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
     return (
         <>
-            <h2 className='text-3xl font-bold text-center'>My Projects</h2>
+            <h2 className='text-3xl font-bold text-center lg:text-4xl lg:mb-10'>My Projects</h2>
             {/* <div className="projectsFilter text-white flex flex-row justify-center items-center gap-2 py-6">
                 <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"}></ProjectTag>
                 <ProjectTag onClick={handleTagChange} name="React" isSelected={tag === "React"}></ProjectTag>

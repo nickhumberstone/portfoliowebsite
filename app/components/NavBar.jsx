@@ -30,7 +30,7 @@ const NavBar = () => {
     return (
         <nav className="fixed bg-[#174d25] w-screen z-10 ">
             <div className='flex items-center justify-between px-4 py-4'>
-                <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold">humberstone.uk</Link>
+                <Link href={"/"} className="text-2xl md:text-4xl text-white font-semibold">humberstone.uk</Link>
 
                 {/* Mobile Hamburger Menu */}
                 <div className="mobile-menu block lg:hidden">
