@@ -12,7 +12,7 @@ export default function Home() {
       <NavBar />
       <div className="mt-16 mx-auto p-5 shadow-lg w-screen bg-gradient-to-b from-[#000000] to-[#1c1d1c]">
         <HeroSection />
-        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div>
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
         <AboutSection />
         <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div>
         {/* <AchievementsSection />

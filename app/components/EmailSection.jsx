@@ -33,10 +33,10 @@ const EmailSection = () => {
     };
 
     return (
-        <section className='grid md:grid-cols-2 my-12 md:my-12 gap-4 relative'>
+        <section className='my-12 md:my-12 gap-4 max-w-2xl mx-auto relative'>
             <div>
-                <h2 className='text-3xl font-bold text-center mb-2'>Get in touch</h2>
-                <p className='text-[#adb7be] mb-2 max-w-md'>Drop me an email if you want to connect. Face to face, over a coffee, is usually best.</p>
+                <h2 className='text-3xl font-bold text-center mb-2 lg:text-4xl lg:mb-10'>Get in touch</h2>
+                <p className='text-[#adb7be] mb-2 max-w-2xl'>Drop me an email if you want to connect. Face to face, over a coffee, is usually best.</p>
 
             </div>
             <div>
