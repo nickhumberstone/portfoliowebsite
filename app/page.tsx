@@ -14,11 +14,11 @@ export default function Home() {
         <HeroSection />
         <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
         <AboutSection />
-        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div>
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
         {/* <AchievementsSection />
-        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div> */}
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div> */}
         <ProjectSection />
-        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5'></div>
+        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
         <EmailSection />
       </div>
       <Footer />

@@ -44,13 +44,14 @@ const ProjectsSection = () => {
     return (
         <>
             <h2 className='text-3xl font-bold text-center lg:text-4xl lg:mb-10'>My Projects</h2>
-            {/* <div className="projectsFilter text-white flex flex-row justify-center items-center gap-2 py-6">
+            <div className="projectsFilter text-white flex-row justify-center items-center gap-2 py-6 hidden lg:flex">
                 <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"}></ProjectTag>
                 <ProjectTag onClick={handleTagChange} name="React" isSelected={tag === "React"}></ProjectTag>
                 <ProjectTag onClick={handleTagChange} name="React Native" isSelected={tag === "React Native"}></ProjectTag>
-            </div> */}
+            </div>
             <div className="flex flex-wrap gap-8 py-4 px-4">{filteredProjects.map((p) =>
                 <ProjectCard
+                    className="w-20"
                     key={p.id}
                     title={p.title}
                     description={p.description}
