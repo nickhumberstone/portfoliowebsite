@@ -5,7 +5,7 @@ import { Content } from 'next/font/google'
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
     return (
-        <div>
+        <div className='lg:w-5/12 w-11/12 mx-auto'>
             <div className="h-52 md:h-72 mt-2 rounded-t-xl relative group"
                 style={{
                     background: `url(${imgUrl})`, backgroundSize: "cover",
