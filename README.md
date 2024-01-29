@@ -1,3 +1,9 @@
+Inspiration for a redevelopment: https://codepen.io/jcoulterdesign/pen/ZxXbeP
+
+I also want to implement some kind of scroll lock so the mobile experience is nicer.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
