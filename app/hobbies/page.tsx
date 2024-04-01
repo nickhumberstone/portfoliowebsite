@@ -40,7 +40,7 @@ export default function hobbies() {
             <NavBar />
             <div className="mt-16 mx-auto p-2 shadow-lg w-screen bg-gradient-to-b from-[#000000] to-[#1c1d1c]">
                 <h1 className="text-center text-4xl p-4">Hobbies</h1>
-                <p className="md:w-1/3 m-auto text-center text-lg">There&apos;s only so many hours in a week, and a huge number of things I want to be doing. Here"s what I do with my free time currently.</p>
+                <p className="md:w-1/3 m-auto text-center text-lg">There&apos;s only so many hours in a week, and a huge number of things I want to be doing. Here&apos;s what I do with my free time currently.</p>
                 <div className="w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12"></div>
                 <div className="flex flex-wrap gap-8 py-2 px-2 mb-6">{hobbies.map((p) =>
                     <HobbyCard
