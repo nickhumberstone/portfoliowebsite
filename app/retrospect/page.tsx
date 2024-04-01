@@ -12,7 +12,7 @@ export default function retrospect() {
                     <Image className="md:block" src="/images/RetroHome.jpeg" width={200} height={400} alt="Retrospect App Daily Question Screenshot" />
                     <div className="container md:w-1/2 p-4 text-xl text-center">
                         <h2 className="text-4xl text-center mb-4 hidden md:block">The Hype</h2>
-                        <p className="mb-4">I built an app. It's called Retrospect.
+                        <p className="mb-4">I built an app. It&apos;s called Retrospect.
                         </p>
                         <p>Coming soon to the Google Play Store.</p>
                     </div>
