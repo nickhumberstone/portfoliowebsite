@@ -42,7 +42,7 @@ export default function retrospect() {
                         <h2 className="text-4xl text-center mb-4">The Motivation</h2>
                         <p className="mb-4"> Like most coding projects, this app was developed with a loved-one in mind. My partner enjoys maintaining and has completed a 5 year journal which has a 365 day rotation of questions. One of the challenges of doing this is accidentally peeking at a previous response to a question, which then prevents you from answering the question with an unclouded mind.
                         </p>
-                        <p>Retrospect takes that concept, simplifies it down to a weekly rotation, adds community perspectives and responses, and prevents you from seeing your previous responses until you"ve answered the question that day.</p>
+                        <p>Retrospect takes that concept, simplifies it down to a weekly rotation, adds community perspectives and responses, and prevents you from seeing your previous responses until you&apos;ve answered the question that day.</p>
                     </div>
                 </div>
                 <div className="w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12"></div>
