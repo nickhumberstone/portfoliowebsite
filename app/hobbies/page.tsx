@@ -1,6 +1,6 @@
-import NavBar from '../../app/components/NavBar'
-import Footer from '../../app/components/Footer'
-import HobbyCard from '../../app/components/HobbyCard'
+import NavBar from "../../app/components/NavBar"
+import Footer from "../../app/components/Footer"
+import HobbyCard from "../../app/components/HobbyCard"
 
 export default function hobbies() {
 
@@ -31,7 +31,7 @@ export default function hobbies() {
             title: "Volleyball",
             description: "An excellent team sport, that requires you to work with others to succeed more than any other. The community is very international, so you also get to meet and learn from people from many other cultures.",
             fullText: "",
-            image: '/images/volley-ball-net.jpg',
+            image: "/images/volley-ball-net.jpg",
         }
     ]
 
@@ -39,9 +39,9 @@ export default function hobbies() {
         <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#e8e8e8] to-[#ffffff]">
             <NavBar />
             <div className="mt-16 mx-auto p-2 shadow-lg w-screen bg-gradient-to-b from-[#000000] to-[#1c1d1c]">
-                <h1 className='text-center text-4xl p-4'>Hobbies</h1>
-                <p className='md:w-1/3 m-auto text-center text-lg'>There's only so many hours in a week, and a huge number of things I want to be doing. Here's what I do with my free time currently.</p>
-                <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
+                <h1 className="text-center text-4xl p-4">Hobbies</h1>
+                <p className="md:w-1/3 m-auto text-center text-lg">There"s only so many hours in a week, and a huge number of things I want to be doing. Here"s what I do with my free time currently.</p>
+                <div className="w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12"></div>
                 <div className="flex flex-wrap gap-8 py-2 px-2 mb-6">{hobbies.map((p) =>
                     <HobbyCard
                         key={p.id}
