@@ -8,8 +8,8 @@ export default function hobbies() {
         {
             id: 1,
             title: "Public Speaking",
-            description: "An excellent skill to have, that I am improving upon each week at a Toastmasters club that meets at 7am every Thursday. I&apos;m also a volunteer Vice President of Membership for the club.",
-            fullText: "Vice President of Membership for a weekly Toastmasters meetup. Our club, &apos;Early Bird Speakers&apos;, is one of the few clubs to run morning meetings - these start at 7am every Thursday. Being able to communicate ideas in your head confidently and accessibly is a superpower, one which I enjoy improving upon each week. At Toastmasters, it&apos;s not just about speeches, it&apos;s also about evaluations, including commendations and recommendations.",
+            description: "An excellent skill to have, that I am improving upon each week at a Toastmasters club that meets at 7am every Thursday. I'm also a volunteer Vice President of Membership for the club.",
+            fullText: "Vice President of Membership for a weekly Toastmasters meetup. Our club, 'Early Bird Speakers', is one of the few clubs to run morning meetings - these start at 7am every Thursday. Being able to communicate ideas in your head confidently and accessibly is a superpower, one which I enjoy improving upon each week. At Toastmasters, it's not just about speeches, it's also about evaluations, including commendations and recommendations.",
             image: "/images/publicspeaking.jpeg",
         },
         {
@@ -22,7 +22,7 @@ export default function hobbies() {
         {
             id: 3,
             title: "Politics",
-            description: "I&apos;m passionate about democracy and autonomy. I&apos;ve run election campaigns at councillor and Mayoral level, and stood in both too. I came 2nd in the Lewisham Mayoral election in 2022.",
+            description: "I'm passionate about democracy and autonomy. I've run election campaigns at councillor and Mayoral level, and stood in both too. I came 2nd in the Lewisham Mayoral election in 2022.",
             fullText: "",
             image: "/images/politics.jpeg",
         },
