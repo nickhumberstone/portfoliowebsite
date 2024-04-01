@@ -9,19 +9,19 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
 const navLinksArray = [
     {
         title: "About",
-        path: "#About"
+        path: "about"
     },
     {
-        title: "Hearsay App",
-        path: "#HearsayApp"
+        title: "Retrospect App",
+        path: "retrospect"
     },
     {
         title: "Hobbies",
-        path: "#Hobbies"
+        path: "hobbies"
     },
     {
         title: "Contact",
-        path: "#Contact"
+        path: "contact"
     }
 ]
 

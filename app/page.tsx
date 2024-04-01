@@ -3,7 +3,6 @@ import NavBar from '../app/components/NavBar'
 import AboutSection from '../app/components/AboutSection'
 import ProjectSection from '../app/components/ProjectsSection'
 import EmailSection from '../app/components/EmailSection'
-import AchievementsSection from '../app/components/AchievementsSection'
 import Footer from '../app/components/Footer'
 
 export default function Home() {
@@ -15,8 +14,6 @@ export default function Home() {
         <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
         <AboutSection />
         <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
-        {/* <AchievementsSection />
-        <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div> */}
         <ProjectSection />
         <div className='w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12'></div>
         <EmailSection />
