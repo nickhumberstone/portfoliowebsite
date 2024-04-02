@@ -6,7 +6,7 @@ export default function retrospect() {
     return (
         <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#e8e8e8] to-[#ffffff]">
             <NavBar />
-            <div className="mt-16 mx-auto p-5 shadow-lg w-screen bg-gradient-to-b from-[#000000] to-[#1c1d1c]">
+            <div className="mt-16 mx-auto p-5 shadow-lg w-screen bg-gradient-to-b from-[#000000] to-[#1c1d1c] text-white">
                 <h1 className="text-center text-4xl">Retrospect App</h1>
                 <div className="flex flex-1 p-5 gap-4 justify-center items-center md:flex-row flex-col-reverse">
                     <Image className="md:block" src="/images/RetroHome.jpeg" width={200} height={400} alt="Retrospect App Daily Question Screenshot" />
