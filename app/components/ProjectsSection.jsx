@@ -6,12 +6,12 @@ import ProjectTag from './ProjectTag'
 const projectsData = [
     {
         id: 1,
-        title: "Hearsay Social App",
-        description: "Each day, active users are asked a question. Submit your reply, and see what other people nearby have to say. Eventually you'll be able to match with people based on their responses and message them privately to ask more about their response and themselves.",
+        title: "Retrospect App",
+        description: "Each day, active users are asked a question on a 7-day rotation. Submit your reply, and see what other people responded, and see what you said in previous weeks.",
         image: "/images/hearsayAppProject.jpg",
         tag: ["All", "React Native"],
-        gitUrl: "https://github.com/nickhumberstone/hearsay",
-        previewUrl: "/",
+        gitUrl: "https://github.com/nickhumberstone/retrospect-client",
+        previewUrl: "/retrospect",
     },
     {
         id: 2,
