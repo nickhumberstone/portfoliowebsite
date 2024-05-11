@@ -8,7 +8,7 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2 text-[#ADB7BE] opacity-50 space-y-2">
+            <ul className="list-disc pl-2 text-primary opacity-50 space-y-2">
                 <li>HTML / CSS / JavaScript</li>
                 <li>React</li>
                 <li>React Native</li>
@@ -21,7 +21,7 @@ const TAB_DATA = [
         title: "Experience",
         id: "experience",
         content: (
-            <ul className="list-disc pl-2 text-[#ADB7BE] opacity-50 space-y-2">
+            <ul className="list-disc pl-2 text-primary opacity-50 space-y-2">
                 <li>Digital Officer at The Green Party for 6+ years</li>
                 <li>Placement Student at St. George&apos;s University of London for 1 year</li>
                 <li>Various roles at Sainsbury&apos;s and Waitrose for 3 years</li>
@@ -32,7 +32,7 @@ const TAB_DATA = [
         title: "Certifications",
         id: "certifications",
         content: (
-            <ul className="list-disc pl-2 text-[#ADB7BE] opacity-50 space-y-2">
+            <ul className="list-disc pl-2 text-primary opacity-50 space-y-2">
                 <li>FreeCodeCamp Responsive Web Design</li>
                 <li>FreeCodeCamp JavaScript Algorithms and Data Structures</li>
                 <li>FreeCodeCamp Front End Development Libraries</li>
@@ -68,10 +68,10 @@ const AboutSection = () => {
 
                 <div className="text-left flex flex-col h-full lg:p-20 lg:mx-auto lg:grid lg:grid-cols-2 max-w-6xl">
                     <div>
-                        <h2 className="text-3xl text-center font-bold text-[#eaeaea] mb-4 lg:text-5xl lg:mb-10">About Me</h2>
+                        <h2 className="text-3xl text-center font-bold text-primary mb-4 lg:text-5xl lg:mb-10">About Me</h2>
                         <Image src="/images/NickHumberstoneMainImage.JPG" width={200} height={100} alt="Nick Humberstone in a burgundy knitwear jumper, standing in a park with green grass and a treeline in the background." className='lg:hidden mx-auto rounded-xl mb-4' />
 
-                        <div><ul className='list-disc text-[#ADB7BE] opacity-50 space-y-2 lg:text-xl'>
+                        <div><ul className='list-disc text-primary opacity-50 space-y-2 lg:text-xl'>
                             <li>
                                 Self-taught React and React Native developer
                             </li>
@@ -82,7 +82,7 @@ const AboutSection = () => {
                                 Volunteer organiser for Toastmasters, The Green Party, London Vegan Meetup
                             </li>
                         </ul>
-                            <div className="flex flex-row mx-auto justify-center mt-6 lg:text-xl text-[#ADB7BE]">
+                            <div className="flex flex-row mx-auto justify-center mt-6 lg:text-xl text-primary">
                                 <TabButton
                                     selectTab={() => handleTabChange("skills")}
                                     active={tab === "skills"}

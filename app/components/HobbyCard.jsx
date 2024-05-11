@@ -10,12 +10,12 @@ const HobbyCard = ({ imgUrl, title, description }) => {
                     backgroundPosition: 'center center',
                 }}
             >
-                <div className="overlay rounded-t-xl items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden transition-all duration-500">
+                <div className="overlay rounded-t-xl items-center justify-center absolute top-0 left-0 w-full h-full bg-opacity-0 hidden transition-all duration-500">
                 </div>
             </div>
-            <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 h-48 md:h-36 overflow-hidden">
+            <div className="text-primary rounded-b-xl bg-secondary py-6 px-4 h-48 md:h-36 overflow-hidden">
                 <h5 className="font-xl font-semibold mb-2">{title}</h5>
-                <p className="text-[#ADB7BE] overflow-hidden">{description}</p>
+                <p className="text-primary overflow-hidden">{description}</p>
             </div>
         </div>
     )
