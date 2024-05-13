@@ -38,7 +38,7 @@ export default function hobbies() {
     return (
         <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#e8e8e8] to-[#ffffff]">
             <NavBar />
-            <div className="mt-16 mx-auto p-2 shadow-lg w-screen bg-gradient-to-b from-[#000000] to-[#1c1d1c] text-white">
+            <div className="mt-16 mx-auto p-2 shadow-lg w-screen text-primary">
                 <h1 className="text-center text-4xl p-4">Hobbies</h1>
                 <p className="md:w-1/3 m-auto text-center text-lg">There&apos;s only so many hours in a week, and a huge number of things I want to be doing. Here&apos;s what I do with my free time currently.</p>
                 <div className="w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12"></div>
