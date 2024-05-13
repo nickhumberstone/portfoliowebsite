@@ -1,4 +1,4 @@
-import { inter } from './layout'
+import { roboto } from './layout'
 
 
 export default function RootLayout({
@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={roboto.className}>{children}</body>
         </html>
     );
 }
