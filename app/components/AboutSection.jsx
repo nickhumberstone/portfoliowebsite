@@ -8,7 +8,7 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2 text-primary opacity-50 space-y-2">
+            <ul className="list-disc pl-2 text-primary space-y-2">
                 <li>HTML / CSS / JavaScript</li>
                 <li>React</li>
                 <li>React Native</li>
@@ -21,7 +21,7 @@ const TAB_DATA = [
         title: "Experience",
         id: "experience",
         content: (
-            <ul className="list-disc pl-2 text-primary opacity-50 space-y-2">
+            <ul className="list-disc pl-2 text-primary space-y-2">
                 <li>Digital Officer at The Green Party for 6+ years</li>
                 <li>Placement Student at St. George&apos;s University of London for 1 year</li>
                 <li>Various roles at Sainsbury&apos;s and Waitrose for 3 years</li>
@@ -32,7 +32,7 @@ const TAB_DATA = [
         title: "Certifications",
         id: "certifications",
         content: (
-            <ul className="list-disc pl-2 text-primary opacity-50 space-y-2">
+            <ul className="list-disc pl-2 text-primary space-y-2">
                 <li>FreeCodeCamp Responsive Web Design</li>
                 <li>FreeCodeCamp JavaScript Algorithms and Data Structures</li>
                 <li>FreeCodeCamp Front End Development Libraries</li>
@@ -44,19 +44,6 @@ const TAB_DATA = [
 const AboutSection = () => {
     const [tab, setTab] = useState("skills");
     const [isPending, startTransition] = useTransition();
-
-    //testing
-
-    // fetch("http://127.0.0.1:3030/answers")
-    //     .then(res => {
-    //         console.log(res.status);
-    //         console.log(res.headers);
-    //         return res.json();
-    //     })
-    //     .then((result) => { console.log(result) }
-    //         , (error) => { console.log(error) })
-
-    //end of testing
 
     const handleTabChange = (id) => {
         startTransition(() => { setTab(id) });
@@ -71,7 +58,7 @@ const AboutSection = () => {
                         <h2 className="text-3xl text-center font-bold text-primary mb-4 lg:text-5xl lg:mb-10">About Me</h2>
                         <Image src="/images/NickHumberstoneMainImage.JPG" width={200} height={100} alt="Nick Humberstone in a burgundy knitwear jumper, standing in a park with green grass and a treeline in the background." className='lg:hidden mx-auto rounded-xl mb-4' />
 
-                        <div><ul className='list-disc text-primary opacity-50 space-y-2 lg:text-xl'>
+                        <div><ul className='list-disc text-primary space-y-2 lg:text-xl'>
                             <li>
                                 Self-taught React and React Native developer
                             </li>
