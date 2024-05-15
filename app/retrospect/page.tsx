@@ -7,16 +7,37 @@ export default function retrospect() {
         <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#e8e8e8] to-[#ffffff]">
             <NavBar />
             <div className="mt-16 mx-auto p-5 shadow-lg w-screen text-primary">
-                <h1 className="text-center text-4xl">Retrospect App</h1>
-                <div className="flex flex-1 p-5 gap-4 justify-center items-center md:flex-row flex-col-reverse">
+                <h1 className="text-center text-4xl m-2 font-bold">Retrospect App</h1>
+                <div className="md:w-1/3 sm:w-4/5 text-center m-auto text-xl">
+                    <p>Each day, you're prompted to answer a reflective question.
+                    </p>
+                    <p className="m-4">Upon answering, you can then view your answers to the same question from previous weeks. You can also view responses made today from the community. The questions are on a 7 day rotation.</p>
+                    <p>Sign up below to join the waiting list.</p>
+                </div>
+
+                <iframe src="https://cdn.forms-content-1.sg-form.com/f66779a0-1288-11ef-aa14-fab44ede40b0" className="w-screen h-[530px]" />
+                <div className="">
+                    <h2 className="text-4xl text-center m-4">Screenshots</h2>
+                    <div className="flex flex-row gap-8 justify-center">
+                        <Image className="" src="/images/RetroHome.jpeg" width={200} height={400} alt="Retrospect App Daily Question Screenshot" />
+                        <Image className="" src="/images/RetroDailyQuestion.jpeg" width={200} height={400} alt="Retrospect App Daily Question Screenshot" />
+                        <Image className="" src="/images/RetroCommunityAnswers.jpeg" width={200} height={400} alt="Retrospect App Community Responses Screenshot" />
+                    </div>
+                </div>
+
+
+                {/* <div className="flex flex-1 p-5 gap-4 justify-center items-center md:flex-row flex-col-reverse">
                     <Image className="md:block" src="/images/RetroHome.jpeg" width={200} height={400} alt="Retrospect App Daily Question Screenshot" />
-                    <div className="container md:w-1/2 p-4 text-xl text-center">
+
+                    <div className="container w-1/2 p-4 text-xl text-center">
                         <h2 className="text-4xl text-center mb-4 hidden md:block">The Hype</h2>
                         <p className="mb-4">I built an app. It&apos;s called Retrospect.
                         </p>
                         <p>Coming soon to the Google Play Store.</p>
+
                     </div>
                 </div>
+
                 <div className="w-64 mx-auto my-10 h-2 rounded-lg bg-[#ffffff] opacity-5 lg:w-8/12"></div>
 
 
@@ -54,7 +75,7 @@ export default function retrospect() {
                         <h2 className="text-4xl text-center mb-4">The Technical Stuff</h2>
                         <p>Retrospect is a React Native Expo app developed individually by Nick Humberstone. It is integrated with Auth0 for user management and secure login. The backend consists of Node JS, Express, and MySQL to store responses, user accounts info, and the weekly rotation of questions. </p>
                     </div>
-                </div>
+                </div> */}
             </div>
             <Footer />
         </main >
