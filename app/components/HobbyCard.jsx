@@ -13,7 +13,7 @@ const HobbyCard = ({ imgUrl, title, description }) => {
                 <div className="overlay rounded-t-xl items-center justify-center absolute top-0 left-0 w-full h-full bg-opacity-0 hidden transition-all duration-500">
                 </div>
             </div>
-            <div className="text-primary rounded-b-xl bg-secondary py-6 px-4 h-48 md:h-36 overflow-hidden">
+            <div className="text-primary rounded-b-xl bg-secondary py-6 px-4 h-48 md:h-36 overflow-hidden shadow-md">
                 <h5 className="font-xl font-semibold mb-2">{title}</h5>
                 <p className="text-primary overflow-hidden">{description}</p>
             </div>
