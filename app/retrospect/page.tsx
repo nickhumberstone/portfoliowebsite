@@ -9,7 +9,7 @@ export default function retrospect() {
             <div className="mt-16 mx-auto p-5 shadow-lg w-screen text-primary">
                 <h1 className="text-center text-4xl m-2 font-bold">Retrospect App</h1>
                 <div className="md:w-1/3 sm:w-4/5 text-center m-auto text-xl">
-                    <p>Each day, you're prompted to answer a reflective question.
+                    <p>Each day, you&apos;re prompted to answer a reflective question.
                     </p>
                     <p className="m-4">Upon answering, you can then view your answers to the same question from previous weeks. You can also view responses made today from the community. The questions are on a 7 day rotation.</p>
                     <p>Sign up below to join the waiting list.</p>
