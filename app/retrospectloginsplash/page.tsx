@@ -1,19 +1,10 @@
 "use client"
 
-import { useEffect } from "react";
 import { useSearchParams } from 'next/navigation'
 
-
-export default function retrospect() {
+export default function retrospectloginsplash() {
     const searchParams = useSearchParams()
     const url = searchParams.get('state') ?? ''
-    let test = "";
-    let test2 = ""
-    useEffect(() => {
-        test = window.location.search;
-        test2 = new URLSearchParams(test)
-    })
-
 
     return (
         <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#e8e8e8] to-[#ffffff]">
@@ -24,8 +15,7 @@ export default function retrospect() {
                 <p></p>
                 <div className="">
 
-                    <p>{url}</p>
-                    <p>{test}{test2}</p>
+                    <p>STATE = {url}</p>
                     <p>Privacy policy can be viewed here: <a href="https://docs.google.com/document/d/1U2mku0lRV51uN04d_WdtlobDEAfrdQFii-b59Z3PYSQ/edit?usp=sharing">Privacy Policy</a></p>
                 </div>
 
