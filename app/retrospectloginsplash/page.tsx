@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation'
 
-export default function retrospectloginsplash() {
+export default function Retrospectloginsplash() {
     const searchParams = useSearchParams()
     const url = searchParams.get('state') ?? ''
 
