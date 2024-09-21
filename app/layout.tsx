@@ -15,14 +15,14 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
     <html lang="en" className={roboto.className}>
       <head>
         {/* <!-- Google tag (gtag.js) --> */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-J2F8SEHNTN" strategy='afterInteractive'></Script>
+        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=G-J2F8SEHNTN" strategy='afterInteractive'></Script>
         <Script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag("js", new Date());
           gtag("config", ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
           `}
-        </Script>
+        </Script> */}
       </head>
       <body>{children}</body>
     </html>
