@@ -4,14 +4,15 @@ import Image from "next/image";
 import Link from 'next/link'
 import GithubIcon from "/public/icons8-github-96.png"
 import LinkedinIcon from "/public/icons8-linkedin-96.png"
+import EmailSection from './EmailSection';
 
 const MobileCard = () => {
 
     return (
         <section>
-            <div className="card rounded-lg p-5 bg-secondary w-full h-full">
+            <div className="card rounded-3xl p-5 bg-secondary w-full h-full">
                 <div className="image-container bg-secondary mx-auto w-full h-full">
-                <Image src="/images/NickHumberstoneMainImage.JPG" width={300} height={200} alt="Nick Humberstone in a burgundy knitwear jumper, standing in a park with green grass and a treeline in the background." className='mx-auto rounded-xl mb-4' />
+                {/* <Image src="/images/NickHumberstoneMainImage.JPG" width={300} height={200} alt="Nick Humberstone in a burgundy knitwear jumper, standing in a park with green grass and a treeline in the background." className='mx-auto rounded-xl mb-4' /> */}
                 <h1 className="text-primary text-center p-1 text-xl">Nick Humberstone</h1>
                 <h2 className="text-primary text-center p-1 text-lg">Software Developer</h2>
                 </div>
@@ -27,6 +28,7 @@ const MobileCard = () => {
                     <a className="m-2 p-2 flex-1 rounded-lg bg-primary" href="https://google.com">Button</a>
  
                 </div>
+                <EmailSection slassName='hidden lg:block' />
                 </div>
                     <div className='socials p-2 flex gap-4 justify-center space-around'>
                     {/* <Link href="https://github.com/nickhumberstone">
