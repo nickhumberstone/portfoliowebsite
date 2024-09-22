@@ -18,14 +18,14 @@ const MobileCard = () => {
                 </div>
 
                 <div className="retrospect-button h-10 rounded-lg bg-primary text-secondary  m-2 p-4 justify-center items-center align-middle flex">
-                    <a className="text-center" href="mailto:nickhumberstone@gmail.com?subject=Joining%20closed%20testing%20for%20Retrospects"><p className="text-center">Sign up for Retrospect App (Closed Testing)</p></a>
+                    <a className="text-center" href="mailto:nickhumberstone@gmail.com?subject=Joining%20closed%20testing%20for%20Retrospect"><p className="text-center">Sign up for Retrospect App (Closed Testing)</p></a>
                 </div>
 
                 <div className="buttons-container text-secondary items-center justify-center flex flex-row m-auto">
-                    <a className="m-2 p-2 flex-1 rounded-lg bg-primary text-center" href="/hireme">View my CV</a>
+                    {/* <a className="m-2 p-2 flex-1 rounded-lg bg-primary text-center" href="/hireme">View my CV</a> */}
                     <a className="m-2 p-2 flex-1 rounded-lg bg-primary text-center" href="https://github.com/nickhumberstone">GitHub</a>
                     <a className="m-2 p-2 flex-1 rounded-lg bg-primary text-center" href="https://linkedin.com/in/nickhumberstone">LinkedIn</a>
-                    <a className="m-2 p-2 flex-1 rounded-lg bg-primary text-center" href="https://google.com">Button</a>
+                    {/* <a className="m-2 p-2 flex-1 rounded-lg bg-primary text-center" href="https://google.com">Button</a> */}
  
                 </div>
                 {/* <EmailSection /> */}
