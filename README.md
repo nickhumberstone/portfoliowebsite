@@ -1,8 +1,22 @@
-Inspiration for a redevelopment: https://codepen.io/jcoulterdesign/pen/ZxXbeP
+Portfolio Website [https://humberstone.uk](https://humberstone.uk)
 
-I also want to implement some kind of scroll lock so the mobile experience is nicer.
+2. Project Description
+My portfolio website is a place for me to share my work, let people find out more about me, and allow people to get in touch with me. It also allows me to easily create additional pages for other uses, such as a login splash screen for [Retrospect](https://github.com/nickhumberstone/retrospect-client) - the social journalling app that I've developed.
 
-First, run the development server:
+It's built with React and Next.JS, and hosted with Vercel, and available on my custom domain.
+This is an important component of your project that many new developers often overlook.
+
+The current focus of this project is to increase my success in applying for jobs, but in future I hope to make it more generally about myself, have links to a number of interesting side projects, and add a markdown blog where I can post articles about the overlap of tech, politics, democracy, and AI.
+
+3. How to Install and Run the Project
+If you want to run a version of this locally, you can clone the repo using
+
+```bash
+git clone https://link
+```
+
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,21 +24,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. License (to be added later)
+   Will likely be a GPL license, allowing full rights to modify. I need to visit https://choosealicense.com/
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Additional notes:
+Inspiration for a redevelopment: https://codepen.io/jcoulterdesign/pen/ZxXbeP
 
-## Learn More
+I also want to implement some kind of scroll lock so the mobile experience is nicer.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
