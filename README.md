@@ -12,7 +12,7 @@ The current focus of this project is to increase my success in applying for jobs
 If you want to run a version of this locally, you can clone the repo using
 
 ```bash
-git clone https://link
+gh repo clone nickhumberstone/portfoliowebsite
 ```
 
 
