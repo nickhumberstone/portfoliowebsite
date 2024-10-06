@@ -6,7 +6,7 @@ import React from 'react'
 export default function Admin() {
 
     const { user, error, isLoading } = useUser();  
-    const [data, setData] = React.useState("")
+    const [data, setData] = React.useState({dailyQuestion: ''})
 
     const showReport = async () => {
         const response = await fetch(
