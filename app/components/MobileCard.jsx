@@ -6,6 +6,7 @@ import GithubIcon from "/public/icons8-github-96.png"
 import LinkedinIcon from "/public/icons8-linkedin-96.png"
 import EmailSection from './EmailSection';
 
+
 const MobileCard = () => {
 
     return (
