@@ -14,7 +14,6 @@ export default function retrospect() {
                     <p className="m-4">Upon answering, you can then view your answers to the same question from previous weeks. You can also view responses made today from the community. The questions are on a 7 day rotation.</p>
                     <p>Sign up below to join the waiting list.</p>
                 </div>
-
                 <iframe src="https://cdn.forms-content-1.sg-form.com/f66779a0-1288-11ef-aa14-fab44ede40b0" className="w-screen h-[530px]" />
                 <div className="">
                     <h2 className="text-4xl text-center m-4">Screenshots</h2>
