@@ -10,12 +10,19 @@ const config: Config = {
     colors: {
       'primary': '#111111',
       'secondary': '#f9f9f9',
+      'grey': '#777676',
+      'red': '#FF0000',
     },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      width: {
+        '32r': '32rem',
+        '40r': '40rem',
+        '48r': '48rem',
       },
     },
   },

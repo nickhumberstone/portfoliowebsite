@@ -1,5 +1,5 @@
-import NavBar from '../../app/components/NavBar'
-import Footer from '../../app/components/Footer'
+import NavBar from '../components/archive/NavBar'
+import Footer from '../components/MobileFooter'
 import EmailSection from '../components/EmailSection'
 
 export default function contact() {
