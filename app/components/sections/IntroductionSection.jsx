@@ -11,12 +11,12 @@ const IntroductionSection = () => {
                 <p className="text-paragraph opacity-50 mx-4 italic text-center">London, UK</p>
                 <LinkBlock linkText="Contact Me" href="mailto:nickhumberstone@gmail.com" />
                 <p className="hidden md:block text-paragraph opacity-50 mx-4 italic text-center">
-                    Growing up I wanted to be an inventor. I'm now a self-taught software engineer that can bring my ideas to life.
+                    Growing up I wanted to be an inventor. I&apos;m now a self-taught software engineer that can bring my ideas to life.
                 </p>
                 <p className="hidden text-paragraph opacity-50 mx-4 italic text-center">
                     Software Engineer with 7+ years of experience working in Digital Support. I enjoy building things and solving real-world problems.
                     A fan of Extreme Programming because it focuses on what works and doubles down on it, delivering efficient, robust, and readable code.
-                    I’m a confident and clear communicator and a regular attendee at London’s many software engineering meetups.
+                    I&apos;m a confident and clear communicator and a regular attendee at London&apos;s many software engineering meetups.
                 </p>
             </div>
             <ImageBlock

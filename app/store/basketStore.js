@@ -11,48 +11,37 @@ export const useBasketStore = create(
     persist(
         (set, get) => ({
             products: [
-                { itemId: 1, category: 'technologies', name: 'React', additionaldetails: [], stock: 2 },
-                { itemId: 2, category: 'technologies', name: 'React Native', additionaldetails: [], stock: 1 },
-                { itemId: 3, category: 'technologies', name: 'Node.js', additionaldetails: [], stock: 3 },
-                { itemId: 4, category: 'technologies', name: 'Java', additionaldetails: [], stock: 3 },
-                { itemId: 5, category: 'technologies', name: 'MySQL', additionaldetails: [], stock: 2 },
+                { itemId: 1, category: 'technologies', name: 'Javascript', additionaldetails: [], stock: 3 },
+                { itemId: 2, category: 'technologies', name: 'React', additionaldetails: [], stock: 2 },
+                { itemId: 3, category: 'technologies', name: 'React Native', additionaldetails: [], stock: 2 },
+                { itemId: 4, category: 'technologies', name: 'Node.js', additionaldetails: [], stock: 2 },
+                { itemId: 5, category: 'technologies', name: 'ExpressJS', additionaldetails: [], stock: 2 },
+                { itemId: 6, category: 'technologies', name: 'Tailwind', additionaldetails: [], stock: 2 },
+                { itemId: 7, category: 'technologies', name: 'Java', additionaldetails: [], stock: 1 },
+                { itemId: 8, category: 'technologies', name: 'MySQL', additionaldetails: [], stock: 2 },
                 { 
-                    itemId: 6, 
+                    itemId: 9, 
                     category: 'agile', 
-                    name: 'Software Development', 
-                    additionaldetails: [
-                        'Proficient in Test-Driven Development, ensuring robust and reliable code.',
-                        'Experienced in Pair Programming, promoting knowledge sharing and collaboration.',
-                        'Expertise in Continuous Integration/Continuous Deployment workflows.'
-                    ], 
+                    name: 'Test-driven development', 
+                    additionaldetails: [], 
                     stock: 7 
                 },
                 { 
-                    itemId: 7, 
+                    itemId: 10, 
                     category: 'agile', 
-                    name: 'Front-End Development', 
-                    additionaldetails: [
-                        'Strong focus on creating responsive and accessible user interfaces.',
-                        'Experienced in delivering seamless user experiences with modern frameworks like React and Tailwind.',
-                        'Passionate about maintaining high usability and design consistency.'
-                    ], 
+                    name: 'Continuous Integration / Continuous Deployment', 
+                    additionaldetails: [], 
                     stock: 7 
                 },
-                { 
-                    itemId: 8, 
-                    category: 'agile', 
-                    name: 'Communication', 
-                    additionaldetails: [
-                        'Skilled at conveying technical concepts to non-technical stakeholders.',
-                        'Confident in leading meetings and facilitating cross-team collaboration.',
-                        'Active participant in meetups, sharing insights and learning from peers.'
-                    ], 
-                    stock: 7 
-                },
-                { itemId: 9, category: 'certifications', name: 'Responsive Web Design', stock: 1 },
-                { itemId: 10, category: 'certifications', name: 'JavaScript Algorithms and Data Structures', stock: 1 },
                 { 
                     itemId: 11, 
+                    category: 'agile', 
+                    name: 'Pair Programming', 
+                    additionaldetails: [], 
+                    stock: 7 
+                },
+                { 
+                    itemId: 12, 
                     category: 'experience', 
                     name: 'Digital Officer - Green Party', 
                     additionaldetails: [
@@ -63,59 +52,58 @@ export const useBasketStore = create(
                     stock: 7 
                 },
                 { 
-                    itemId: 12, 
+                    itemId: 13, 
                     category: 'experience', 
                     name: 'e-Learning Technologist - St George\'s University', 
                     additionaldetails: [
-                        'Developed and deployed a PhoneGap app for both Android and iOS platforms.',
-                        'Designed e-learning courses for FutureLearn, enhancing medical education.'
-                    ], 
-                    stock: 1 
-                },
-                { 
-                    itemId: 13, 
-                    category: 'projects', 
-                    name: 'Retrospect - Social Journaling App', 
-                    additionaldetails: [
-                        'Built a gratitude-focused journaling app with React Native and MySQL.',
-                        'Incorporated user feedback for continuous improvements, boosting engagement.',
-                        'Currently in closed testing with 29 users, preparing for public release.'
+                        'Developed and deployed a PhoneGap Student Help app for both Android and iOS devices.',
+                        'Designed medical education e-learning courses for FutureLearn, helping train the next generation of doctors and nurses.'
                     ], 
                     stock: 1 
                 },
                 { 
                     itemId: 14, 
                     category: 'projects', 
-                    name: 'XTC.vote - Open Spaces Voting Website', 
+                    name: 'Retrospect - Social Journaling App', 
                     additionaldetails: [
-                        'Streamlined event voting with a Java Spring Boot application.',
-                        'Developed with test-driven development and 90% test coverage.',
-                        'Successfully deployed at the XTC meetup in London for real-time voting.'
+                        'Built a gratitude-focused journaling app with React Native, Node.JS, Express, and MySQL.',
+                        'Incorporated user feedback for continuous improvements, boosting engagement.',
+                        'Deployed to the Google Play Store'
                     ], 
                     stock: 1 
                 },
                 { 
                     itemId: 15, 
-                    category: 'education', 
-                    name: 'Westcliff High School for Boys (A Levels)', 
+                    category: 'projects', 
+                    name: 'XTC.vote - Open Spaces Voting Website', 
                     additionaldetails: [
-                        'Completed A Levels in STEM subjects, demonstrating a strong analytical foundation.',
-                        'Built skills in problem-solving and critical thinking.'
+                        'A topic proposal and voting tool for Open Spaces style events and meetings',
+                        'Built using Java Spring Boot, utilising Thymeleaf and HTMX',
+                        'Developed with test-driven development (90% test coverage), and entirely pair programmed.',
+                        'Successfully deployed, and in use at the XTC agile meetup in London.'
                     ], 
-                    stock: 2 
+                    stock: 1 
                 },
                 { 
                     itemId: 16, 
                     category: 'education', 
+                    name: 'Westcliff High School for Boys (A Levels)', 
+                    additionaldetails: [
+                        'BBCC in STEM subjects.'
+                    ], 
+                    stock: 2 
+                },
+                { 
+                    itemId: 17, 
+                    category: 'education', 
                     name: 'Westcliff High School for Boys (GCSEs)', 
                     additionaldetails: [
-                        'Achieved 12 GCSEs with top grades, including Maths (A*) and English (A).',
-                        'Gained a solid academic foundation for future technical achievements.'
+                        '4A*s, 6As, 2Bs, including Maths (A*) and English (A).',
                     ], 
                     stock: 7 
                 },
                 { 
-                    itemId: 17, 
+                    itemId: 18, 
                     category: 'volunteering', 
                     name: 'VP Membership - Toastmasters Club', 
                     additionaldetails: [
@@ -126,7 +114,7 @@ export const useBasketStore = create(
                     stock: 5 
                 },
                 { 
-                    itemId: 18, 
+                    itemId: 19, 
                     category: 'volunteering', 
                     name: 'Coordinator - Wandsworth Green Party', 
                     additionaldetails: [
@@ -137,7 +125,7 @@ export const useBasketStore = create(
                     stock: 5 
                 },
                 { 
-                    itemId: 19, 
+                    itemId: 20, 
                     category: 'volunteering', 
                     name: 'Co-founder - London Vegan Board Games', 
                     additionaldetails: [
@@ -148,7 +136,7 @@ export const useBasketStore = create(
                     stock: 5 
                 },
                 { 
-                    itemId: 20, 
+                    itemId: 21, 
                     category: 'volunteering', 
                     name: 'Organiser - London Netrunner Meetup', 
                     additionaldetails: [
@@ -159,6 +147,7 @@ export const useBasketStore = create(
                     stock: 5 
                 },
             ],
+            
             
             basket: [], 
             isShopperMode: false,
