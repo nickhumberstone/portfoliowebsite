@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         {/* Add any required scripts */}
       </head>
       <UserProvider>
-        <body className={roboto.className}>
+        <body className={`${roboto.className} bg-brand-bg-dark`}>
           {children}
         </body>
       </UserProvider>

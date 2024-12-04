@@ -15,7 +15,7 @@ const TextBlock = ({ product }) => {
                 }`}
         >
             <div className="relative flex justify-center items-center align-middle gap-4 min-h-10">
-                <p className={`text-center ${isShopperMode ? 'pr-10' : ''
+                <p className={`text-center text-lg ${isShopperMode ? 'pr-12' : ''
                     }`}>{product.name}</p>
                 {isShopperMode && (
                     <button

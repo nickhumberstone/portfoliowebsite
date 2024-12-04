@@ -11,7 +11,7 @@ const ImageBlock = ({ src, width, height, alt }) => {
             width={smwidth}
             height={smheight}
             alt={alt}
-            className="rounded-lg justify-center bg-brand-bg-alt shadow-md"
+            className="rounded-lg justify-center bg-brand-bg-alt shadow-md hidden md:block"
             priority
         />
     );

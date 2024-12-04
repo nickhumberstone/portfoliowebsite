@@ -8,9 +8,9 @@ const ShopperToggleBar = () => {
     const isShopperMode = useBasketStore((state) => state.isShopperMode);
 
     return (
-        <section className="fixed top-4 left-0 w-full z-50 p-4">
+        <section className="fixed sm:top-4 top-1 left-0 w-full z-50 p-4">
             <div className="bg-brand-primary shadow-md rounded-2xl flex flex-col sm:flex-row items-center justify-around max-w-5xl mx-auto p-4">
-                <h1 className=" text-brand-text-inverse text-center text-lg sm:text-md">
+                <h1 className=" text-brand-text-inverse text-center text-md sm:text-lg">
                     {isShopperMode
                         ? "Add items to your cart to build the perfect hire!"
                         : "Looking to hire your next software engineer?"}
